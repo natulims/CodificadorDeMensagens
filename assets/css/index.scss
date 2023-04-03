@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Righteous&family=VT323&display=swap");
+
+//cores
+$bg-color: #fefae0;
+$details-color: #283618;
+$text-color: #ccd5ae;
+$btn-color: #dda15e;
+$hover-color: #bc6c25;
+
+//funções
+@mixin text {
+  font-size: 2em;
+  text-align: justify;
+  color: $text-color;
+  line-height: normal;
+  vertical-align: middle;
+  text-indent: 2px;
+  font-family: "Mulish", sans-serif;
+}
+
+@mixin text-details {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  color: $details-color;
+  line-height: normal;
+}
